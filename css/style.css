@@ -2,34 +2,33 @@ body {
   font-family: 'Poppins', 'Segoe UI', 'Arial', sans-serif;
   color: #818181;
 }
-
 h1 {
   font-size: 60px;
   font-weight: bold;
 }
-
 h2 {
   font-size: 26px;
 }
-
 h3 {
   font-size: 28px;
   font-weight: bold;
 }
-
 h4 {
   font-size: 22px;
   font-weight: bold;
 }
-
 p1 {
   font-size: 20px;
 }
-
 .jumbotron {
   background-color: #7c609c;
   color: #fff;
-  padding: 100px 25px;
+  padding-top: 150px;
+}
+.wave {
+  display: block;
+  margin-top: -100px;
+  margin-bottom: -200px;
 }
 .container-fluid {
   padding: 60px 50px;
@@ -37,16 +36,6 @@ p1 {
 .bg-grey {
   background-color: #f6f6f6;
 }
-
-.logo-small {
-  color: #f4511e;
-  font-size: 50px;
-}
-.logo {
-  color: #f4511e;
-  font-size: 200px;
-}
-
 .navbar {
   background-color: #7c609c;
   font-size: 16px;
@@ -66,13 +55,11 @@ p1 {
 .nav-item {
   padding-left: 20px;
 }
-
 footer .material-icons {
   font-size: 48px;
   margin-bottom: 20px;
   color: #7c609c;
 }
-
 .slideanim {visibility:hidden;}
 .slide {
   animation-name: slide;
@@ -81,7 +68,6 @@ footer .material-icons {
   -webkit-animation-duration: 1s;
   visibility: visible;
 }
-
 .carousel-inner img {
   max-width: 50%;
   height: auto;
@@ -130,16 +116,21 @@ footer .material-icons {
     text-align: center;
     margin: 25px 0;
   }
-  img {
+  .carousel-inner img {
     min-width: 100%;
     height: auto;
+  }
+  .wave {
+    display: block;
+    margin-top: -50px;
+    margin-bottom: -100px;
   }
 }
 @media screen and (max-width: 480px) {
   .logo {
     font-size: 150px;
   }
-  img {
+  .carousel-inner img {
     min-width: 100%;
     height: auto;
   }
