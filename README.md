@@ -35,20 +35,20 @@
 
 3. How long, in hours, did it take you to complete this assignment?
 
-Estimated 15 hours.
+- Estimated 15 hours.
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-W3Schools Tutorials: https://www.w3schools.com/html, https://www.w3schools.com/bootstrap4, https://www.w3schools.com/w3css
-Bootstrap 4 Documentation: https://getbootstrap.com/docs/4.0
-SVG Waves Creator: https://getwaves.io
-Google Material Icons: https://material.io/resources/icons
-Too many Stack Overflow threads
+- W3Schools Tutorials: https://www.w3schools.com/html, https://www.w3schools.com/bootstrap4, https://www.w3schools.com/w3css
+- Bootstrap 4 Documentation: https://getbootstrap.com/docs/4.0
+- SVG Waves Creator: https://getwaves.io
+- Google Material Icons: https://material.io/resources/icons
+- Too many Stack Overflow threads
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-N/A
+- N/A
 
 6. Is there anything special we need to know in order to run your code?
 
-N/A
+- N/A
