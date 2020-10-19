@@ -148,13 +148,16 @@ EMAIL: trishaal@uci.edu
       <div class="col-sm-7 slideanim">
         <div class="row">
           <div class="col-sm-6 form-group">
-            <input class="form-control" label="yourName" id="yourName" name="yourName" placeholder="Name" type="text" required>
+            <label for="name">Name:</label> 
+            <input class="form-control" label="name" id="name" name="name" placeholder="Name" type="text" required>
           </div>
           <div class="col-sm-6 form-group">
+            <label for="email">Email:</label> 
             <input class="form-control" label="email" id="email" name="email" placeholder="Email" type="email" required>
           </div>
         </div>
-        <textarea class="form-control" label="comments" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <label for="comment">Comment:</label> 
+        <textarea class="form-control" label="comment" id="comment" name="comment" placeholder="Comment" rows="5"></textarea><br>
         <div class="row">
           <div class="col-sm-12 form-group">
             <button type="button" class="btn btn-outline-secondary float-right">Send</button>
