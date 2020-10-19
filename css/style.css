@@ -71,6 +71,23 @@ footer .glyphicon {
   -webkit-animation-duration: 1s;
   visibility: visible;
 }
+
+.carousel-item {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.carousel-control-prev, .carousel-control-next {
+  background-image: none;
+  color: #7c609c;
+}
+.carousel-indicators li {
+  color: #7c609c;
+}
+.carousel-indicators li.active {
+  color: #f4511e;
+}
+
 @keyframes slide {
   0% {
     opacity: 0;
