@@ -67,8 +67,8 @@ p1 {
   padding-left: 20px;
 }
 
-footer .glyphicon {
-  font-size: 20px;
+footer .material-icons {
+  font-size: 48px;
   margin-bottom: 20px;
   color: #7c609c;
 }
@@ -100,6 +100,10 @@ footer .glyphicon {
   top: 0;
   color: #818181;
 }
+.material-icons {
+  display: inline-flex;
+  vertical-align: middle;
+}
 
 @keyframes slide {
   0% {
@@ -125,10 +129,6 @@ footer .glyphicon {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
-  }
-  .btn-lg {
-    width: 100%;
-    margin-bottom: 35px;
   }
   img {
     min-width: 100%;
