@@ -82,20 +82,23 @@ footer .glyphicon {
   visibility: visible;
 }
 
-.carousel-item {
-  width: 50%;
+.carousel-inner img {
+  max-width: 50%;
   height: auto;
   margin: auto;
+  background-size: contain;
 }
-.carousel-control-prev, .carousel-control-next {
-  background-image: none;
-  color: #7c609c;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(75%);
 }
 .carousel-indicators li {
-  color: #7c609c;
+  filter: invert(75%);
 }
-.carousel-indicators li.active {
-  color: #f4511e;
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+  color: #818181;
 }
 
 @keyframes slide {
@@ -127,9 +130,17 @@ footer .glyphicon {
     width: 100%;
     margin-bottom: 35px;
   }
+  img {
+    min-width: 100%;
+    height: auto;
+  }
 }
 @media screen and (max-width: 480px) {
   .logo {
     font-size: 150px;
+  }
+  img {
+    min-width: 100%;
+    height: auto;
   }
 }
