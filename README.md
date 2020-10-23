@@ -1,5 +1,5 @@
-# inf117-a1-portfolio
- INF 117 Assignment 1: Responsive Portfolio
+# inf133-a1-portfolio
+ INF 133 Assignment 1: Responsive Portfolio
 
 1. How many assignment points do you believe you completed?
 
